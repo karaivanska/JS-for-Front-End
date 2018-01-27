@@ -1,0 +1,44 @@
+$border: 5px dotted purple;
+$text-size: 25px;
+
+@mixin button-style{
+  margin-left: 30px;
+  border: none;
+  font-size: $text-size;
+  padding: 7px 20px 7px 20px;
+  border-radius: 15px;
+  background: white;
+  color: purple;
+  &:hover{
+    background: orangered;
+  }
+}
+
+main{
+  background: aqua;
+  border: $border;
+  height: 310px;
+  margin-top: 50px;
+  div{
+    margin-top: 20px;
+    background: yellow;
+    ul{
+      li{
+        margin-bottom: 50px;
+        background: antiquewhite;
+        font-size: $text-size;
+        a{
+          list-style: none;
+        }
+      }
+    }
+  }
+}
+
+li{
+  button{
+    @include button-style;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}

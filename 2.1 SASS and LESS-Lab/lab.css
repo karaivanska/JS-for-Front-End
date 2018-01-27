@@ -1,0 +1,29 @@
+main {
+  background: aqua;
+  border: 5px dotted purple;
+  height: 310px;
+  margin-top: 50px; }
+  main div {
+    margin-top: 20px;
+    background: yellow; }
+    main div ul li {
+      margin-bottom: 50px;
+      background: antiquewhite;
+      font-size: 25px; }
+      main div ul li a {
+        list-style: none; }
+
+li button {
+  margin-left: 30px;
+  border: none;
+  font-size: 25px;
+  padding: 7px 20px 7px 20px;
+  border-radius: 15px;
+  background: white;
+  color: purple;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+  li button:hover {
+    background: orangered; }
+
+/*# sourceMappingURL=lab.css.map */
